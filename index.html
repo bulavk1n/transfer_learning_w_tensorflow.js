@@ -1,0 +1,35 @@
+<html>
+  <head>
+        <title>Transfer Learning Example</title>
+         <link rel='stylesheet' href='style.css'/>
+
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+  </head>
+  <body>
+    <h1> <center> Transfer Learning Example </center> </h1>
+    <div id="console"></div>
+    <!-- Add an image that we will use to test -->
+    <video autoplay playsinline muted id="webcam" width="224" height="224"
+    style = "display: block; margin-left: auto; margin-right: auto;"></video>
+    <!-- Load index.js after the content of the page -->
+    <button id="class-a" style = "display: block; margin-left: auto; margin-right: auto;">
+                Add Wave Sign <img src="waiving-hand.png"></button>
+
+    <button id="class-b" style = "display: block; margin-left: auto; margin-right: auto;">
+               Add Fist Sign <img src="raised-fist.png"></button>
+
+    <button id="class-c" style = "display: block; margin-left: auto; margin-right: auto;">
+               Add Victory Sign <img src="victory-hand.png"></button>
+
+    <button id="class-d" style = "display: block; margin-left: auto; margin-right: auto;">
+               Add Doing nothing Sign <img src="maninlotus.png"></button>
+
+
+
+
+    <script src="index.js"></script>
+   </body>
+</html>
