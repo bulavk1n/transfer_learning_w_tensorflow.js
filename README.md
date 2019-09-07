@@ -1,7 +1,5 @@
 # Transfer Learning Example, using TensorFlow.js
 
-Thanks to Siraj Raval for inspiring us to learn this.
-https://github.com/llSourcell
 
 See the demo.mp4 file attached
 
